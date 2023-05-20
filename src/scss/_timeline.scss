@@ -1,6 +1,6 @@
 .timeline {
     background-color: #F2EAE1;
-    min-height:100vh;
+    min-height:90vh;
     margin:0;
     overflow: hidden;
     &:before {
@@ -57,7 +57,7 @@
           color:rgb(109, 109, 109);
           p {
             line-height:1.4em;
-            font-size: 0.8em !important;
+            font-size: 0.9em !important;
           }
         }
         &:nth-child(2n) {
@@ -84,17 +84,22 @@
     font-size: 1rem;
   }
   .entry{
-    padding-left: 0.1em !important;
+    padding-left: 0 !important;
     padding-right: 2em !important;
-    width: 12em !important;
+    width: 10em !important;
     color: #c8cd3e;
+    .body{
+      p{
+        font-size: 1em !important;
+      }
+    }
     .title {
       &:before {
           right:-1em !important;
       }
     }
       &:nth-child(2n) {
-        padding-left: 2.5em !important;
+        padding-left: 2.3em !important;
         padding-right: 0.0em !important;
 
         .title {
